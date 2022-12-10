@@ -131,7 +131,11 @@ h2 {
 }
 
 .img-car img {
-  vertical-align: bottom;
+    transition: all .3s;
+}
+
+.img-car:hover img {
+    transform: scale(1.1);
 }
 
 h3 {
